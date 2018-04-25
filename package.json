@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
-    "build": "webpack"
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./public/bundle.js",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "license": "MIT",
   "dependencies": {

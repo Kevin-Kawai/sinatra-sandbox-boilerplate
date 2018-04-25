@@ -1,0 +1,6 @@
+
+# ignoring node_modules
+node_modules/
+
+#ignoring rendered files
+public/
